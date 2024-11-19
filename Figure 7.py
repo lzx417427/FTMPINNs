@@ -79,12 +79,6 @@ for loss in f_eight_total_loss:
 
     log_losses6.append(log_loss6)
 
-plt.yscale('log')
-plt.ylabel('relative $l_{2}$ error')
-plt.legend(loc='best')
-plt.xlabel('epochs')
-plt.show()
-
 # 图七
 # # plt.rcParams['font.size'] = 9.5
 plt.plot(log_losses4, label='fPINN α=0.2', color='green', linewidth=1.5, linestyle='-')
